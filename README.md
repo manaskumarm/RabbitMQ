@@ -2,9 +2,13 @@
 
 **RabbitMQ** is an open-source message broker that enables applications to communicate with each other asynchronously. It implements the Advanced Message Queuing Protocol (AMQP) and facilitates the sending, receiving, and processing of messages between producers (senders) and consumers (receivers). RabbitMQ acts as an intermediary that decouples systems, allowing them to interact without requiring direct connections.
 
-![image](https://github.com/user-attachments/assets/7ed7f47c-ce10-41c9-bd93-e392918ea528)
+<br>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7ed7f47c-ce10-41c9-bd93-e392918ea528" alt="image" />
+</p>
 
 **Advantages of RabbitMQ**:
+
 Asynchronous Communication: Enables applications to communicate without waiting for a response, improving overall efficiency and responsiveness.
 
 Decoupling: RabbitMQ decouples producers and consumers, allowing them to operate independently. This is particularly useful in microservices architectures.
@@ -59,7 +63,10 @@ _http://localhost:15672/_
 
 ![image](https://github.com/user-attachments/assets/fb4f013b-1bc8-4a77-81fc-68587dcebb8b)
 
-•	**Username**: guest   	**Password**: guest
+•	**Username**: guest   	**Password**: guest . Once login is successful, you can see following screen with different tabs like connections, channels, queues etc. You can see and send messages in **Queues** tab.
+
+![image](https://github.com/user-attachments/assets/a78057b7-b71d-4aa6-804c-421bafc9ee2e)
+
 
 **Step 6: Use RabbitMQ in Your Application**
 
